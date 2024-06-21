@@ -85,8 +85,14 @@ body {
 .head6 img {
   height: 170px;
   margin: 10px;
+  transition: height ease 1s;
+}
+.head6 img:hover {
+  height: 200px;
+  border: solid 4px rgb(196, 88, 178);
 }
 .head7 {
+  padding-top: 3000px;
   display: flex;
   align-items: center;
   justify-content: center;
