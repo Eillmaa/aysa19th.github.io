@@ -98,3 +98,24 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.confetti2 {
+  position: fixed;
+  z-index: 100;
+  margin-top: 630px;
+}
+.confetti2 img:last-child {
+  margin-left: 1120px;
+  transform: rotate(-90deg);
+}
+.confetti1 {
+  position: fixed;
+  z-index: 100;
+}
+.confetti1 img:first-child {
+  transform: rotate(90deg);
+}
+.confetti1 img:last-child {
+  margin-left: 1120px;
+  right: 0;
+  transform: rotate(180deg);
+}
