@@ -26,7 +26,7 @@ body {
   transform: rotate(360deg);
 }
 .pic1 {
-  font-size: 70px;
+  font-size: 60px;
 }
 .head2 {
   display: flex;
@@ -101,7 +101,7 @@ body {
 .confetti2 {
   position: fixed;
   z-index: 100;
-  margin-top: 630px;
+  margin-top: 580px;
 }
 .confetti2 img:last-child {
   margin-left: 1120px;
